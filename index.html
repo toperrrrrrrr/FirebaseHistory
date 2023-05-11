@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Firebase Text Input</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Firebase Text Input</h1>
+		<form>
+			<label for="input-text">Enter text:</label>
+			<input type="text" id="input-text" placeholder="Type here...">
+			<button type="submit">Submit</button>
+		</form>
+		<div >
+			<h2>History</h2>
+			<ul id="history"></ul>
+		</div>
+	</div>
+	<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+	<script src="script.js"></script>
+</body>
+</html>
